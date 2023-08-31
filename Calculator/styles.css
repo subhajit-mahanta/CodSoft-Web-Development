@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=DM Serif Display');
+
+.calculator {
+    padding: 25px;
+    border-radius: 4em;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    background-color: #f7f6dd;
+    box-shadow: rgba(0, 0, 0, 0.19) 1px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'DM Serif Display', sans-serif;
+    background-color: #dde1db;
+    border: solid black 3.0px;
+    color: black;
+    border-radius: 50px;
+    width: 97%;
+    height: 65%;
+    font-size: 20px;
+}
+
+#btn {
+    background-color: #f4cc05;
+}
+
+input[type=button] {
+    font-family: 'DM Serif Display', sans-serif;
+    background-color: #3ea929;
+    color: white;
+    border: solid black 2.0px;
+    width: 90%;
+    border-radius: 50px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
