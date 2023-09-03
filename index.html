@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the world with us and create unforgettable memories.</p>
+            <a href="#packages" class="cta-button">Explore Packages</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Beach Paradise</h3>
+            <p>Relax on pristine beaches with crystal-clear waters.</p>
+        </div>
+        <div class="destination">
+            <img src="destination2.jpg" alt="Destination 2">
+            <h3>Mountain Retreat</h3>
+            <p>Embark on a thrilling journey through majestic mountains.</p>
+        </div>
+        
+        <div class="destination">
+            <img src="destination3.jpg" alt="Destination 3">
+            <h3>Cultural Experience</h3>
+            <p>Immerse yourself in the rich culture and heritage of different countries.</p>
+        </div>
+        <div class="destination">
+            <img src="destination4.jpg" alt="Destination 4">
+            <h3>Wildlife Safari</h3>
+            <p>Embark on a thrilling wildlife adventure in exotic locations.</p>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <h2>Travel Packages</h2>
+        <div class="package">
+            <img src="package1.jpg" alt="Package 1">
+            <h3>Beach Getaway</h3>
+            <p>Escape to the best beach destinations in the world.</p>
+        </div>
+        <div class="package">
+            <img src="package2.jpg" alt="Package 2">
+            <h3>Mountain Expedition</h3>
+            <p>Experience the thrill of climbing iconic peaks.</p>
+        </div>
+        
+        <div class="package">
+            <img src="package3.jpg" alt="Package 3">
+            <h3>Cultural Journey</h3>
+            <p>Explore the world's most iconic cultural landmarks and events.</p>
+        </div>
+        <div class="package">
+            <img src="package4.jpg" alt="Package 4">
+            <h3>Safari Expedition</h3>
+            <p>Witness the beauty of wildlife in its natural habitat.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please feel free to contact our agent.</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:abc@xyz.com">abc@xyz.com</a></p>
+            <p>Phone: <a href="tel:9090909090">909-090-9090</a></p>
+        </div>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Travel Adventure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
